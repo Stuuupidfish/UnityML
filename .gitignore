@@ -5,6 +5,7 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -104,3 +105,20 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML-Agents training results
+results/
+summaries/
+models/
+checkpoint/
+*.onnx
+*.pt
