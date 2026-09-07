@@ -122,3 +122,15 @@ models/
 checkpoint/
 *.onnx
 *.pt
+
+#UnityML
+UnityML/venv/
+UnityML/Library/
+UnityML/Temp/
+UnityML/Obj/
+UnityML/Build/
+UnityML/Builds/
+UnityML/Logs/
+UnityML/UserSettings/
+UnityML/.vs/
+UnityML/results/
