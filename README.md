@@ -4,7 +4,7 @@ Hi guys i just wanted to learn how to incorporate machine learning into my Unity
 <img width="800" height="450" alt="Untitleddesign2-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/48411721-721a-4ee3-bb41-585eb5522fbc" />
 
 ### Set-up & install instructions
-Ok so this is the [official doc](https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Installation.html) with all the install instructions but I did it slightly differently. I'll write down how I did it but please note I am using **Windows 11** and **Unity 6** so there may be variations across different OSs. Also, im not going over the stuff done in the Unity editor. You can find that information in the video and documentation.
+Ok so this is the [official doc](https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Installation.html) with all the install instructions but I did it slightly differently. I'll write down how I did it but please note I am using **Unity 6** withh **Windows 11** so there may be variations across different OSs. Also, im not going over the stuff done in the Unity editor. You can find that information in the video and documentation.
 
 - First you wanna **install Python 3.10** (My first mistake was attempting using Python 3.14)
 - Make a folder for your project. You'll build your Unity project here as well as set up a virtual environment
@@ -14,7 +14,7 @@ Ok so this is the [official doc](https://docs.unity3d.com/Packages/com.unity.ml-
 
 1. **pip install mlagents==1.1.0** 
 2. **pip install "torch==2.2.2" --index-url https://download.pytorch.org/whl/cu121** 
-3. **mlagents-learn --help**
+3. **mlagents-learn --help** (this is just to check if its installed)
 
 To run and start training the agent type:
 
